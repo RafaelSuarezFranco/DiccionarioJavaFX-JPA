@@ -1,0 +1,32 @@
+
+.mainFxmlClass {
+   
+}
+.oscuro {
+   -fx-background-color: black;  
+}
+.botones {
+   /* -fx-backgorund-color:
+        linear-gradient(#FFD65B, #E68400),
+        linear-gradient(#FFEF84, #F2BA44),
+        linear-gradient(#FFEA6A, #EFAA22),
+        linear-gradient(#FFE657 0%, F8C202 50%, #EEA10B 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+   -fx-padding: 10 20 10 20;
+   */
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-background-color: yellow;
+    -fx-font-size: 14px ;
+    
+    
+    -fx-background-color: linear-gradient(to top,#ffa500, #FFFF00);
+    
+}
+
+.blanco {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
